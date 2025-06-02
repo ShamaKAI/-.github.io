@@ -283,6 +283,15 @@
                 <p>相约泳池，切磋泳技，享受水中乐趣</p>
                 <div class="interest-price">¥39.9</div>
             </div>
+            
+            <div class="interest-card" onclick="showModal('读书')">
+                <div class="interest-title">
+                    <i class="fas fa-book" style="margin-right: 10px;"></i>
+                    读书搭子 
+                </div>
+                <p>分享阅读心得，每周共读一本好书</p>
+                <div class="interest-price">¥19.9</div>
+            </div>
         </div>
         
         <div class="footer">
@@ -317,7 +326,8 @@
             const qrImages = {
                 '健身': '健身搭子收款码.png',
                 '宠物': '宠物搭子收款码.png',
-                '游泳': '游泳搭子收款码.png'
+                '游泳': '游泳搭子收款码.png',
+                '阅读':'阅读搭子收款码.png'
             };
             
             document.getElementById('qrImage').src = qrImages[group];
